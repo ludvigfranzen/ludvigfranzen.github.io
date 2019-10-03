@@ -3,11 +3,19 @@ body{
     font-weight: normal;
     background-color: #000;
     color:#fff;
-    margin:1em;
+    margin:15px;
+    font-size: 15px;
+    line-height: 1.2;
 }
 
 h1{
-  font-family: helvetica, sans-serif;
   font-weight: normal;
   margin:0;
+  font-size:30px;
+}
+
+h2{
+  font-weight: normal;
+  margin:0;
+  font-size: 30px;
 }
