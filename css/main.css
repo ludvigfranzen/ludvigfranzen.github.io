@@ -30,12 +30,12 @@ h2{
   scroll-snap-type: mandatory;
   scroll-snap-points-x: repeat(100vw);
   scroll-snap-type: x mandatory;
+  margin-top: 14px;
 }
 
 .slide {
   width: 100%;
   flex-shrink: 0;
-
   scroll-snap-align: start;
   margin-right:15px;
 }
