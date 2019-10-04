@@ -41,6 +41,16 @@ h2{
       font-kerning: normal;
 }
 
+.blink_me {
+  animation: blinker 2s linear infinite;
+  display: inline;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
 
 .header {
 margin: 0 auto;
