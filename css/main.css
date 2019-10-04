@@ -137,6 +137,13 @@ color: rgba(255,255,255,20%);
 
 .flickity-page-dots {
   counter-reset: a;
+  width:700px;
+  text-align:left;
+  position:relative;
+  margin: 0 auto;
+  margin-top:-30px;
+  bottom:none;
+  padding:15px;
 }
 
 .flickity-page-dots .dot::after {
@@ -150,8 +157,10 @@ color: rgba(255,255,255,20%);
     display: inline-block;
     width: 30px;
     height: 30px;
-    margin: none;
-    margin: 0 8px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 15px;
 
     background: none;
     border-radius: none;
@@ -159,6 +168,7 @@ color: rgba(255,255,255,20%);
     cursor: pointer;
 
     border: 1px solid white;
+    text-align: center;
 }
 
 
