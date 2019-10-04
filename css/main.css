@@ -67,10 +67,11 @@ margin-top:20px;
 
 .post {
 margin-top:150px;
-  margin-left:-15px;
-    margin-right:-15px;
+
     margin-bottom: 150px;
 }
+
+
 
 .post h2{
 text-align: left;
@@ -103,42 +104,84 @@ color: rgba(255,255,255,50%);
 color: rgba(255,255,255,20%);
 }
 
-.slider {
-  width: 100%;
-  display: flex;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-  scroll-snap-type: mandatory;
-  scroll-snap-points-x: repeat(100vw);
-  scroll-snap-type: x mandatory;
-  padding-bottom:2px;
-  scroll-behavior: smooth;
+.main-carousel{
+    width: 100vw;
+  margin-left:-15px;
+    margin-right:-15px;
+      padding-bottom: 30px;
+}
+
+.carousel-cell {
+  width: 100vw;
 }
 
 
 
-.slide {
-  width: 100%;
-  flex-shrink: 0;
-  scroll-snap-align: start;
-
+.carousel-cell img{
+  width: 100vw;
+  margin-left:-15px;
+    margin-right:-15px;
+    padding-bottom:20px;
 }
 
-.slide img {
-  width:100%;
-  z-index: 100;
+.flickity-button svg{
+  background: transparent;
+  display:none;
+}
 
+.flickity-button {
+  background: transparent;
+  color: #fff;
+  font-weight: 100;
+  font-size: 25px;
+}
+
+.flickity-page-dots {
+  counter-reset: a;
+  padding-bottom: 30px;
+}
+
+.flickity-page-dots .dot::after {
+  content: counter(a);
+  counter-increment: a;
+}
+
+.flickity-page-dots .dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: none;
+    margin: 0 8px;
+
+    background: none;
+    border-radius: none;
+    opacity: .25;
+    cursor: pointer;
 }
 
 
-.slide span{
-  display: block;
-  text-align: left;
-  max-width: 600px;
-    margin: 0 auto;
-    padding-top:15px;
-
+.flickity-button:hover {
+    background: transparent;
+    cursor: pointer;
 }
+
+button.flickity-button.flickity-prev-next-button.next::after {
+    content: '';
+}
+
+
+button.flickity-button.flickity-prev-next-button.previous::after {
+    content: '';
+}
+
+.flickity-prev-next-button {
+    top: 50%;
+    width: 44px;
+    height: 44px; 
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+
 
 
 .footer{
