@@ -144,12 +144,14 @@ color: rgba(255,255,255,20%);
 .flickity-page-dots .dot::after {
   content: counter(a);
   counter-increment: a;
+  margin-top: 3px;
+  display: block;
 }
 
 .flickity-page-dots .dot {
     display: inline-block;
-    width: 10px;
-    height: 10px;
+    width: 30px;
+    height: 30px;
     margin: none;
     margin: 0 8px;
 
@@ -157,6 +159,8 @@ color: rgba(255,255,255,20%);
     border-radius: none;
     opacity: .25;
     cursor: pointer;
+
+    border: 1px solid white;
 }
 
 
