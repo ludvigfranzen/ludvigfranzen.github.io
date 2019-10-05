@@ -8,8 +8,8 @@ body{
     font-family: 'Inter', sans-serif;
     font-kerning: normal;
     font-weight: 200;
-    background-color: #000;
-    color:#fff;
+    background-color: #fff;
+    color:#222;
     font-size: 20px;
     line-height: 1.2;
     padding:0;
@@ -36,7 +36,6 @@ margin:auto;
 
 .flickity-button {
   background: transparent;
-  color: #fff;
     font-size:20px;
   font-weight: 200;
   display: block!important;
@@ -66,7 +65,7 @@ p{
 }
 
 a{
-  color: #fff;
+  color: #222;
 }
 
 h1{
@@ -128,7 +127,7 @@ text-decoration: none;
 }
 
 .header a:hover {
-color: rgba(255,255,255,50%);
+color: #999;
 
 }
 
@@ -206,7 +205,7 @@ padding-bottom:10px;
 
 .flickity-button {
   background: transparent;
-  color: #fff;
+  color: #222;
     font-size:20px;
   font-weight: 200;
   display: none;
@@ -247,7 +246,7 @@ padding-bottom:10px;
     opacity: .25;
     cursor: pointer;
 
-    border: 1px solid white;
+    border: 1px solid #222;
     text-align: center;
 }
 
