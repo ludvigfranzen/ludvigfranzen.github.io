@@ -10,7 +10,7 @@ body{
     font-weight: 200;
     background-color: #000;
     color:#fff;
-    font-size: 25px;
+    font-size: 20px;
     line-height: 1.2;
     padding:0;
     text-align: center;
@@ -31,14 +31,14 @@ a{
 h1{
   font-weight: 200;
   margin:0;
-  font-size:25px;
+  font-size:20px;
       font-kerning: normal;
 }
 
 h2{
   font-weight: 200;
   margin:0;
-  font-size: 25px;
+  font-size: 20px;
       font-kerning: normal;
 }
 
@@ -55,15 +55,16 @@ h2{
 
 .header {
 margin: 0 auto;
-max-width: 700px;
+max-width: 600px;
 text-align: left;
-margin-top:15px;
-margin-left:15px;
+padding-top:15px;
+padding-left:15px;
+padding-right: 15px;
 }
 
 .header h2{
 text-align: left;
-padding-top:35px;
+padding-top:25px;
 
 }
 
@@ -90,7 +91,7 @@ margin-top:150px;
 
 .post h2{
 text-align: left;
-max-width: 700px;
+max-width: 600px;
   margin: 0 auto;
   padding-bottom:15px;
   padding-left:15px;
@@ -100,7 +101,7 @@ max-width: 700px;
 
 .post p {
 text-align: left;
-max-width: 700px;
+max-width: 600px;
 margin: 0 auto;
 padding-top: 35px;
 padding-left:15px;
@@ -141,6 +142,7 @@ color: rgba(255,255,255,20%);
     padding-bottom:20px;
 }
 
+
 .flickity-button svg{
   background: transparent;
   display:none;
@@ -150,13 +152,12 @@ color: rgba(255,255,255,20%);
   background: transparent;
   color: #fff;
   font-weight: 200;
-  font-size: 25px;
   display:none;
 }
 
 .flickity-page-dots {
   counter-reset: a;
-  width:700px;
+  width:600px;
   text-align:left;
   position:relative;
   margin: 0 auto;
@@ -174,8 +175,8 @@ color: rgba(255,255,255,20%);
 
 .flickity-page-dots .dot {
     display: inline-block;
-    width: 30px;
-    height: 30px;
+    width: 26px;
+    height: 26px;
     margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
@@ -218,7 +219,7 @@ button.flickity-button.flickity-prev-next-button.previous::after {
 
 .footer{
 margin: 0 auto;
-max-width: 700px;
+max-width: 600px;
 text-align: left;
 }
 
