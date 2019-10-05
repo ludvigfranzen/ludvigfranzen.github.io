@@ -8,4 +8,4 @@ for ( var i=0, len = galleryElems.length; i < len; i++ ) {
     cellAlign: 'center',
   contain: true
   });
-}
+

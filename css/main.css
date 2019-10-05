@@ -10,22 +10,49 @@ body{
     font-weight: 200;
     background-color: #fff;
     color:#222;
-    font-size: 20px;
-    line-height: 1.2;
-    padding:0;
-    text-align: left;
+    font-size:20px;
 
 }
 
-@media (min-width: 800px){
 
+@media (min-width: 830px){
+
+
+.carousel-cell {
+  width: 800px !important;
+}
+
+.carousel-cell img{
+  margin-bottom: 15px;
+}
+
+
+p{
+  margin-left:0px;
+  margin-right:0px;
+      max-width: 800px;
+margin:auto !important;
+}
+
+.flickity-page-dots {
+    max-width: 800px !important;
+margin:auto!important;
+ 
+}
+
+.flickity-page-dots .dot {
+    margin-left: 0px !important;
+    margin-right: 15px !important;
+}
 
   }
 
 
 
 p{
-  margin:0;
+  margin-left:15px;
+  margin-right:15px;
+  margin-top:0px;
       font-kerning: normal;
 }
 
@@ -59,12 +86,13 @@ h2{
 }
 
 .header {
-margin: 0 auto;
-max-width: 600px;
+max-width: 800px;
+margin:auto;
 text-align: left;
 padding-top:15px;
 padding-left:15px;
 padding-right: 15px;
+margin-bottom: 60px;
 
 }
 
@@ -98,89 +126,35 @@ color: #999;
 
 
 
-
-.post {
-margin-top:100px;
-
-    margin-bottom: 100px;
-
-
-}
-
-
-
-.post h2{
-text-align: left;
-max-width: 600px;
-  margin: 0 auto;
-  padding-bottom:15px;
-  padding-left:15px;
-   padding-right:15px;
-
-}
-
-.post p {
-text-align: left;
-max-width: 600px;
-margin: 0 auto;
-padding-left:15px;
-padding-right:15px;
-
-}
-
-
-.post a {
-text-decoration: none;
-text-align: left;
-}
-
-.post a:hover {
-color: #999;
-}
-
-.post a:active {
-color: #999;
-}
-
-
 .carousel-cell {
-  width: 66%;
+  width: 100%;
   margin-right: 15px;
 }
 
+
 .carousel-cell img{
   width: 100%;
+
 }
 
 
-
-
 .flickity-button svg{
-  background: transparent;
   display:none;
 }
 
 .flickity-button {
-  background: transparent;
-  color: #222;
-    font-size:20px;
-  font-weight: 200;
   display: none;
  
 }
 
 .flickity-page-dots {
-  counter-reset: a;
-  max-width:600px;
-  text-align:left;
-  position:relative;
-  margin: 0 auto;
-  margin-top:-34px;
-  bottom:none;
-  padding-top:5px;
-   padding-left:15px;
-   padding-right:15px;
-   padding-bottom:15px;
+      counter-reset: a;
+    text-align: left;
+    bottom: 0px;
+    margin-top: 15px;
+    position: relative;
+    display: block;
+ 
 }
 
 .flickity-page-dots .dot::after {
@@ -196,9 +170,8 @@ color: #999;
     height: 28px;
     margin-top: 0px;
     margin-bottom: 15px;
-    margin-left: 0px;
-    margin-right: 15px;
-
+    margin-left: 15px;
+    margin-right: 0px;
     background: none;
     border-radius: none;
     opacity: .25;
@@ -209,28 +182,6 @@ color: #999;
 }
 
 
-.flickity-button:hover {
-    background: transparent;
-    cursor: pointer;
-}
-
-button.flickity-button.flickity-prev-next-button.next::after {
-    content: '';
-}
-
-
-button.flickity-button.flickity-prev-next-button.previous::after {
-    content: '';
-}
-
-.flickity-prev-next-button {
-    top: 48%;
-    width: 44px;
-    height: 44px; 
-    border-radius: 50%;
-    transform: translateY(-50%);
-    margin-top: -7px;
-}
 
 
 
