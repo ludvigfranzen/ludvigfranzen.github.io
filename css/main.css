@@ -15,9 +15,51 @@ body{
     padding:0;
     text-align: center;
 
+}
 
+@media (min-width: 700px){
+
+
+.post {
+margin-top:150px;
+
+    margin-bottom: 150px;
+       overflow-x: visible!important;
 
 }
+
+.main-carousel{
+ 
+margin:auto;
+
+}
+
+
+.flickity-button {
+  background: transparent;
+  color: #fff;
+    font-size:20px;
+  font-weight: 200;
+  display: block!important;
+ 
+}
+
+
+.carousel-cell {
+
+}
+
+
+
+.carousel-cell img{
+
+  margin-left:-15px;
+    margin-right:-15px;
+    padding-bottom:20px;
+}
+
+
+  }
 
 p{
   margin:0;
@@ -166,8 +208,10 @@ padding-bottom:10px;
 .flickity-button {
   background: transparent;
   color: #fff;
+    font-size:20px;
   font-weight: 200;
-  display:none;
+  display: none;
+ 
 }
 
 .flickity-page-dots {
