@@ -16,8 +16,8 @@ body{
     background-color: #fff;
     color:#222;
     font-size:20px;
-
-
+    font-feature-settings: "dlig" 0, "numr" 0, "dnom" 0, "tnum" 0, "case" 0, "zero" 0, "frac" 0, "sups" 0, "subs" 0, "cpsp" 0, "salt", "ss01" 0, "ss02" 0, "ss03" 0, "cv01" 0, "cv02" 0, "cv03" 0, "cv04" 0, "cv05" 0, "cv06" 0, "cv07" 0, "cv08" 0, "cv09" 0, "cv10" 0, "cv11" 0, "calt", "liga", "kern";
+line-height: 1.2;
 }
 
 
@@ -29,28 +29,31 @@ body{
 }
 
 .carousel-cell img{
-  margin-bottom: 15px;
+
+  margin-left: 15px;
 }
+
+
+
 
 
 p{
   margin-left:0px;
   margin-right:0px;
-  padding-bottom:15px;
       max-width: 800px;
-margin:auto !important;
+
 }
 
 
 
 .flickity-page-dots {
     max-width: 800px !important;
-margin:auto!important;
+
  
 }
 
 .flickity-page-dots .dot {
-    margin-left: 0px !important;
+
     margin-right: 15px !important;
 }
 
@@ -64,8 +67,8 @@ margin:auto!important;
   color: #222;
     font-size:20px;
   font-weight: 200;
-  z-index: 10000
-  display: block;
+  z-index: 10000;
+  display: none;
  
 }
 
@@ -142,7 +145,6 @@ h2{
 
 .header {
 max-width: 800px;
-margin:auto;
 text-align: left;
 padding-top:15px;
 padding-left:15px;
@@ -163,10 +165,12 @@ z-index:800;
 position:fixed;
 z-index:1000;
 
+
 }
 
 .header p {
 margin-top:20px;
+background-color:white;
 
 }
 
