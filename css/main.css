@@ -4,6 +4,10 @@ html { font-family: 'Inter', sans-serif; }
   html { font-family: 'Inter var', sans-serif; }
 }
 
+html {
+scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Inter', sans-serif;
     font-kerning: normal;
@@ -11,6 +15,7 @@ body{
     background-color: #fff;
     color:#222;
     font-size:20px;
+
 
 }
 
@@ -34,6 +39,8 @@ p{
       max-width: 800px;
 margin:auto !important;
 }
+
+
 
 .flickity-page-dots {
     max-width: 800px !important;
@@ -99,6 +106,12 @@ p{
 
 a{
   color: #222;
+  text-decoration: none;
+}
+
+.header a:active{
+  color: #999;
+  text-decoration: none;
 }
 
 h1{
@@ -133,13 +146,15 @@ text-align: left;
 padding-top:15px;
 padding-left:15px;
 padding-right: 15px;
-margin-bottom: 60px;
+margin-bottom: 120px;
 
 }
 
 .header h2{
 text-align: left;
 padding-top:25px;
+position:fixed;
+z-index:800;
 
 }
 
@@ -164,6 +179,12 @@ text-decoration: none;
 color: #999;
 
 }
+
+
+.info {
+padding-top:50px;
+}
+
 
 
 
@@ -222,8 +243,17 @@ color: #999;
     text-align: center;
 }
 
+.collapse {
+    display: none;
+}
 
+.collapse.in {
+    display: block;
+}
 
+.plus {
+    text-align: right;
+}
 
 
 .footer{
