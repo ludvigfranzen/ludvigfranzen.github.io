@@ -13,8 +13,8 @@ body{
     font-family: 'Inter', sans-serif;
     font-kerning: normal;
     font-weight: 200;
-    background-color: #fff;
-    color:#222;
+    background-color: #000;
+    color:#999;
     font-size:20px;
     font-feature-settings: "dlig" 0, "numr" 0, "dnom" 0, "tnum" 0, "case" 0, "zero" 0, "frac" 0, "sups" 0, "subs" 0, "cpsp" 0, "salt", "ss01" 0, "ss02" 0, "ss03" 0, "cv01" 0, "cv02" 0, "cv03" 0, "cv04" 0, "cv05" 0, "cv06" 0, "cv07" 0, "cv08" 0, "cv09" 0, "cv10" 0, "cv11" 0, "calt", "liga", "kern";
 line-height: 1.2;
@@ -76,7 +76,7 @@ p{
 
 .flickity-button {
   background: transparent;
-  color: #222;
+  color: #999;
     font-size:20px;
   font-weight: 200;
   z-index: 10000;
@@ -121,12 +121,12 @@ p{
 }
 
 a{
-  color: #222;
+  color: #999;
   text-decoration: none;
 }
 
 .header a:active{
-  color: #999;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -195,7 +195,7 @@ text-decoration: none;
 }
 
 .header a:hover {
-color: #999;
+color: #444;
 
 }
 
@@ -208,11 +208,20 @@ color: #999;
 }
 
 
+.sub {
+    margin-top: -15px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+color: #444;
+}
+
+
 
 
 .carousel{
   
-    border-bottom: 1px solid #f2f2f2;
+    border-bottom: 1px solid #222;
 }
 
 
@@ -223,6 +232,11 @@ color: #999;
 
 
 .carousel-cell img{
+  width: 100%;
+
+}
+
+.carousel-cell video{
   width: 100%;
 
 }
@@ -245,7 +259,7 @@ color: #999;
     position: relative;
     display: block;
  padding-bottom:15px;
- color:#222;
+ color:#999;
 
 
 }
@@ -269,14 +283,14 @@ color: #999;
     border-radius: none;
     opacity: 100;
     cursor: pointer;
-    border: 1px solid #fff;
+    border: 1px solid #000;
 
-color:#222;
+color:#999;
     text-align: center;
 }
 
 .flickity-page-dots .dot.is-selected {
-      border: 1px solid #222;
+      border: 1px solid #999;
 }
 
 .collapse {
