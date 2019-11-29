@@ -28,6 +28,7 @@ overflow:auto;
 
 .carousel-cell {
     height: 100vh;
+     height: calc(var(--vh, 1vh) * 100);
     margin-right: 0px;
     width: 100%;
   counter-increment: gallery-cell;
@@ -250,6 +251,7 @@ color: #444;
 
 .carousel-cell {
     height: 100vh;
+     height: calc(var(--vh, 1vh) * 100);
     margin-right: 0px;
     width: 100%;
   counter-increment: gallery-cell;
