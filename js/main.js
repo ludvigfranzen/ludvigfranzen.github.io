@@ -31,3 +31,24 @@
 
     }, {passive: false});
   })();
+
+
+  var $carousel = $('.carousel').flickity({
+  initialIndex: 0
+});
+var flkty = $carousel.data('flickity');
+
+$carousel.on( 'staticClick.flickity', function( event, pointer, cellElement, cellIndex ) {
+  // dismiss if cell was not clicked
+  if ( !cellElement ) {
+    return;
+  }
+  // go to next if current cell selected
+  if ( cellIndex == flkty.selectedIndex ) {
+    $carousel.flickity('next');
+  } else {
+    $carousel.flickity( 'select', cellIndex );
+  }
+});
+
+

@@ -17,7 +17,7 @@ body{
     color:#999;
     font-size:20px;
 line-height: 1.2;
-text-align: left;
+text-align: center;
 overflow:auto;
 }
 
@@ -27,11 +27,8 @@ overflow:auto;
 
 
 .carousel-cell {
-    height: 100vh;
-    margin-right: 0px;
-    width: 100%;
+  width: 700px!important;
   counter-increment: gallery-cell;
-  overflow:hidden;
   
 }
 .carousel-cell p{
@@ -45,19 +42,6 @@ overflow:auto;
 .carousel-cell img{
 
   margin-left: 0px;
-  object-fit: contain;
-  height: 100%;
-    width: 100%;
-
-}
-
-.carousel-cell video{
-
-  margin-left: 0px;
-  object-fit: contain;
-  height: 100%;
-    width: 100%;
-
 }
 
 
@@ -67,14 +51,14 @@ overflow:auto;
 p{
   margin-left:0px!important;
   margin-right:0px!important;
-  
+      max-width: 700px;
 
 }
 
 
 
 .flickity-page-dots {
- 
+    max-width: 700px !important;
     margin-left: auto;
     margin-right:auto;
 
@@ -149,7 +133,7 @@ a{
 .header a:active{
   color: #fff;
   text-decoration: none;
-  text-align:left;
+  text-align:center;
 }
 
 h1{
@@ -184,9 +168,10 @@ padding-bottom:50px;
 
 
 .header {
+max-width: 700px;
 position:fixed;
 z-index: 1000;
-text-align: left;
+text-align: center;
 padding-top:15px;
 padding-left:15px;
 left:0;
@@ -199,10 +184,10 @@ padding-right: 15px;
 }
 
 .header h2{
-text-align: left;
-padding-top: 25px;
-position: fixed;
-z-index: 800;
+text-align: center;
+padding-top:25px;
+position:fixed;
+z-index:800;
 
 }
 
@@ -232,7 +217,7 @@ color: #444;
     padding-top: 30px;
     margin-left: auto;
     margin-right: auto;
-
+    max-width: 700px;
 }
 
 
@@ -240,48 +225,34 @@ color: #444;
     margin-top: -15px;
     margin-left: auto;
     margin-right: auto;
-
+    max-width: 700px;
 color: #444;
 }
 
 
 
 
+.carousel{
+  
+    border-bottom: 1px solid #222;
+}
+
 
 .carousel-cell {
-    height: 100vh;
-    margin-right: 0px;
-    width: 100%;
-  counter-increment: gallery-cell;
-  overflow:hidden;
-  
+  width: 100%;
+   margin-right:0px;
 }
-.carousel-cell p{
-
-  max-width: 100%!important;
-}
-
-
 
 
 .carousel-cell img{
-
-  margin-left: 0px;
-  object-fit: contain;
-  height: 100%;
-    width: 100%;
+  width: 100%;
 
 }
 
 .carousel-cell video{
-
-  margin-left: 0px;
-  object-fit: contain;
-  height: 100%;
-    width: 100%;
+  width: 100%;
 
 }
-
 
 
 .flickity-button svg{
@@ -296,10 +267,11 @@ color: #444;
 .flickity-page-dots {
       counter-reset: a;
     text-align: center;
-    bottom: 90%;
-
-    margin-right:15px;
- 
+    bottom: 0px;
+    margin-top: 15px;
+    position: relative;
+    display: block;
+ padding-bottom:15px;
  color:#999;
 
 
@@ -325,7 +297,7 @@ color: #444;
     border-radius: none;
     opacity: 100;
     cursor: pointer;
-    border: 1px solid rgba(0,0,0,0.0);
+    border: 1px solid #000;
 
 color:#999;
     text-align: center;
@@ -350,7 +322,7 @@ color:#999;
 
 .footer{
 margin: 0 auto;
-
+max-width: 600px;
 text-align: center;
 }
 
