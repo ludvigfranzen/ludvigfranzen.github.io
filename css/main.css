@@ -6,7 +6,8 @@ html { font-family: 'Inter', sans-serif; }
 
 html {
 scroll-behavior: smooth;
--webkit-overflow-scrolling: touch
+-webkit-overflow-scrolling: touch;
+overflow-x: hidden;
 }
 
 body{
@@ -16,9 +17,10 @@ body{
     background-color: #000;
     color:#999;
     font-size:20px;
+    overflow-x:hidden;
 line-height: 1.2;
 text-align: left;
-overflow:auto;
+position:relative;
 }
 
 
