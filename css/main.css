@@ -130,8 +130,8 @@ button.flickity-button.flickity-prev-next-button.previous::after {
 
 .flickity-prev-next-button {
 
-    width: 44px;
-    height: 44px; 
+    width: 70px;
+    height: 70px; 
     border-radius: 50%;
     transform: translateY(-50%);
     margin-top: -7px;
@@ -139,11 +139,11 @@ button.flickity-button.flickity-prev-next-button.previous::after {
 }
 
 .flickity-prev-next-button.next {
-    right: 37px;
+    right: 14px;
 }
 
 .flickity-prev-next-button.previous {
-    left: 15px;
+    left: 14px;
 }
 
 
