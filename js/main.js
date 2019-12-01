@@ -52,3 +52,18 @@ $carousel.on( 'staticClick.flickity', function( event, pointer, cellElement, cel
 });
 
 
+// external js: flickity.pkgd.js
+
+var flkty = new Flickity('.carousel');
+var carouselStatus = document.querySelector('.carousel-status');
+
+function updateStatus() {
+  var slideNumber = flkty.selectedIndex + 1;
+  carouselStatus.textContent = slideNumber + '/' + flkty.slides.length;
+}
+updateStatus();
+
+flkty.on( 'select', updateStatus );
+
+
+
